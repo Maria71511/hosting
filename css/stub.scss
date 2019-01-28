@@ -2,7 +2,7 @@ body {
   font-size: 32px;
 
   .main {
-    padding-top: 7.5%;
+    padding-top: 7%;
     background-image: url("../img/stub_bg.png");
     height: 100%;
     overflow: hidden;
@@ -57,5 +57,9 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  font-size: 26px;
+  .main {
+    .container {
+      padding: 67px 160px 78px 160px;
+    }
+  }
 }
