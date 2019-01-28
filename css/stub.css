@@ -6,6 +6,7 @@ body .main {
   padding-top: 7.5%;
   background-image: url("../img/stub_bg.png");
   height: 100%;
+  overflow: hidden;
 }
 
 body .main:after {
