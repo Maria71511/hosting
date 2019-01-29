@@ -3,7 +3,7 @@ body {
 }
 
 body .main {
-  padding-top: 7.5%;
+  padding-top: 7%;
   background-image: url("../img/stub_bg.png");
   height: 100%;
   overflow: hidden;
@@ -73,5 +73,14 @@ body .main .container .logo {
 
 body .main .container .logo .logo__title {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .main {
+    font-size: 28px;
+  }
+  .main .container {
+    padding: 60px 140px 71px 140px;
+  }
 }
 /*# sourceMappingURL=stub.css.map */
