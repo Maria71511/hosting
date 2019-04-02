@@ -40,6 +40,7 @@ jQuery(document).ready(function($) {
     dots: false,
     infinite: true,
     speed: 600,
+    variableWidth: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
