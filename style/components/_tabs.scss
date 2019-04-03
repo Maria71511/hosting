@@ -11,6 +11,8 @@
       display: none;
       width: 800px;
       background-color: #fff;
+      transition: all ease-out 0.3s;
+      border-right: 1px solid lighten(#d8d8d8, 10%);
       img {
         position: absolute;
         width: 400px;

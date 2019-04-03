@@ -79,7 +79,7 @@ function showPanel(panelIndex) {
     node.style.display = "none";
   });
   tabPanels[panelIndex].style.display = "flex";
-  tabButtons[panelIndex].style.backgroundColor = "#eaeaea";
+  tabButtons[panelIndex].style.backgroundColor = "#FFF";
 }
 
-tabButtons[0].style.backgroundColor = "#eaeaea";
+tabButtons[0].style.backgroundColor = "#FFF";

@@ -220,6 +220,9 @@
   display: none;
   width: 800px;
   background-color: #fff;
+  -webkit-transition: all ease-out 0.3s;
+  transition: all ease-out 0.3s;
+  border-right: 1px solid #f2f2f2;
 }
 
 .tabs .tabContainer .tabPanel img {
