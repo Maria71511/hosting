@@ -1,8 +1,39 @@
 #footer {
-  background-color: $LightGray;
+  #info-flex-container {
+    border-top: #0e1c2b solid 1px;
+    margin: 0 auto;
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 83px;
+    padding: 0 60px;
+    padding-top: 71px;
+    .info-container {
+      .f-title {
+        font-size: 16px;
+      }
+      .f-text,
+      .f-tel {
+        display: flex;
+        img {
+          width: 20px;
+          margin-right: 10px;
+        }
+      }
+      .f-text--margin {
+        margin-left: 31px;
+      }
+      .f-tel {
+        font-weight: 600;
+      }
+    }
+  }
   #f-text {
-    text-align: center;
+    background-color: #232323;
+    color: #eaeaea;
+    text-align: right;
     margin: 0;
-    padding: 12px 0;
+    padding: 10px 0;
+    padding-right: 40px;
   }
 }

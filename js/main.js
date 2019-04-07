@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
     infinite: true,
     speed: 600,
     variableWidth: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false,
     arrows: true,
