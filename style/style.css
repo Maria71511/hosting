@@ -6,6 +6,35 @@
   margin-bottom: 84px;
 }
 
+.header #fixed-number {
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 0;
+  color: #eaeaea;
+  background-color: rgba(4, 4, 4, 0.8);
+  z-index: 999;
+}
+
+.header #fixed-number .h-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  padding: 7px 26px;
+}
+
+.header #fixed-number .h-number img {
+  margin-right: 7px;
+  width: 20px;
+  height: 20px;
+}
+
 .header .h-title {
   display: -webkit-box;
   display: -ms-flexbox;
