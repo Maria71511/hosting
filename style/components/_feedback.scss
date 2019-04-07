@@ -1,0 +1,15 @@
+#feedback {
+  .c-title {
+    padding-top: 89px;
+  }
+  &:before {
+    position: absolute;
+    display: block;
+    right: 0;
+    content: "";
+    height: 641px;
+    width: 24%;
+    background-color: $PrimaryColor;
+    z-index: 1;
+  }
+}

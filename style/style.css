@@ -200,14 +200,14 @@
   color: transparent;
   border: none;
   outline: none;
-  background: #00ac69;
+  background: #f9bf5d;
 }
 
 .slick-next:hover,
 .slick-next:focus {
   color: transparent;
   outline: none;
-  background: #00ac69;
+  background: #f9bf5d;
 }
 
 .slick-next:hover:before,
@@ -235,7 +235,7 @@
 }
 
 .slick-next:before {
-  content: "";
+  content: url("../img/right-arrow.svg");
 }
 
 [dir="rtl"] .slick-next:before {
@@ -275,7 +275,7 @@
 }
 
 #tabs .tabContainer .tabPanel .text-container {
-  padding: 61px 68px 0px 300px;
+  padding: 77px 68px 0px 300px;
 }
 
 #tabs .tabContainer .tabPanel .text-container .text-container__color-title {
@@ -292,6 +292,16 @@
 
 #tabs .tabContainer .tabPanel .text-container .text-container__text {
   margin: 0;
+  margin-bottom: 24px;
+}
+
+#tabs .tabContainer .tabPanel .text-container button {
+  border: none;
+  text-align: center;
+  background-color: #f9bf5d;
+  border-radius: 16px;
+  padding: 0.5em 1.5em;
+  color: #f9fbff;
 }
 
 #tabs .tabContainer .tabPanel:first-child {
@@ -337,9 +347,24 @@
   display: block;
   right: 0;
   content: "";
-  height: 848px;
+  height: 860px;
   width: 24%;
   background-color: #f9fbff;
+  z-index: 1;
+}
+
+#feedback .c-title {
+  padding-top: 89px;
+}
+
+#feedback:before {
+  position: absolute;
+  display: block;
+  right: 0;
+  content: "";
+  height: 641px;
+  width: 24%;
+  background-color: #32435a;
   z-index: 1;
 }
 
@@ -366,6 +391,7 @@ body {
   margin: 0;
   text-align: center;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .c-title--bigger {
@@ -374,7 +400,9 @@ body {
 }
 
 .c-title--top {
+  font-weight: normal;
   padding-top: 87px;
+  margin-bottom: 12px;
 }
 
 h1,

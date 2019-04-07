@@ -19,7 +19,7 @@
         transform: translate(-50%, 25%);
       }
       .text-container {
-        padding: 61px 68px 0px 300px;
+        padding: 77px 68px 0px 300px;
         .text-container__color-title {
           color: #c7a17a;
           font-size: 18px;
@@ -32,6 +32,15 @@
         }
         .text-container__text {
           margin: 0;
+          margin-bottom: 24px;
+        }
+        button {
+          border: none;
+          text-align: center;
+          background-color: $button;
+          border-radius: 16px;
+          padding: 0.5em 1.5em;
+          color: #f9fbff;
         }
       }
       &:first-child {
@@ -65,7 +74,7 @@
     display: block;
     right: 0;
     content: "";
-    height: 848px;
+    height: 860px;
     width: 24%;
     background-color: #f9fbff;
     z-index: 1;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>right-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1298.000000, -1783.000000)" fill="#F9FBFF" fill-rule="nonzero">
+            <g id="BTN_Right_Arrow" transform="translate(1286.000000, 1768.000000)">
+                <g id="right-arrow" transform="translate(12.000000, 15.000000)">
+                    <path d="M16.1613211,0.255667961 C15.8343601,-0.0852226538 15.2901874,-0.0852226538 14.9517942,0.255667961 C14.6248333,0.585042002 14.6248333,1.13323096 14.9517942,1.46183723 L21.0847888,7.64009575 L0.846744998,7.64009575 C0.374976183,7.64086352 0,8.01860717 0,8.49385783 C0,8.96910848 0.374976183,9.35913648 0.846744998,9.35913648 L21.0847888,9.35913648 L14.9517942,15.5258784 C14.6248333,15.866769 14.6248333,16.4157258 14.9517942,16.744332 C15.2901874,17.0852227 15.8351223,17.0852227 16.1613211,16.744332 L23.7462051,9.10346852 C24.0845983,8.77409448 24.0845983,8.22590552 23.7462051,7.89729925 L16.1613211,0.255667961 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

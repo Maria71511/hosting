@@ -75,14 +75,14 @@
   color: transparent;
   border: none;
   outline: none;
-  background: $AccentColor;
+  background: $button;
 }
 
 .slick-next:hover,
 .slick-next:focus {
   color: transparent;
   outline: none;
-  background: $AccentColor;
+  background: $button;
 }
 
 .slick-next:hover:before,
@@ -110,7 +110,7 @@
   left: -25px;
 }
 .slick-next:before {
-  content: "";
+  content: url("../img/right-arrow.svg");
 }
 [dir="rtl"] .slick-next:before {
   content: "";
