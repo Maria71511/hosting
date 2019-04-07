@@ -1,10 +1,12 @@
-.describe {
+#describe {
   margin-bottom: 130px;
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 226px);
+    grid-template-columns: repeat(3, 400px);
     justify-content: center;
     .grid-item {
+      margin: 0 80px;
+      align-self: center;
       text-align: center;
     }
   }

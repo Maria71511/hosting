@@ -7,22 +7,30 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 71px 0;
-    margin-left: 180px;
+    margin-left: 120px;
+    margin-right: 33px;
     #logo {
-      height: 40px;
-      width: 124px;
+      width: 228x;
+      height: 48px;
     }
     .h-title__title {
-      font-size: 54px;
-      width: 260px;
+      position: absolute;
+      font-size: 48px;
+      width: 800px;
+      margin-left: 15px;
+      transform: translateY(300%);
       span {
-        padding-left: 15px;
+        position: relative;
+        margin-bottom: 120px;
+        padding-left: 10px;
       }
       #modify {
-        position: absolute;
         background-color: $AccentColor;
+        position: absolute;
         color: #f9fbff;
-        width: 486px;
+        font-size: 54px;
+        font-weight: bold;
+        width: 586px;
       }
     }
   }
@@ -30,7 +38,8 @@
     display: block;
     width: 250%;
     height: 100%;
-    background-color: $DarkGray;
+    background-image: url("../img/header-bg.jpg");
+    background-size: cover;
   }
   .menu {
     width: 100%;
@@ -44,6 +53,22 @@
       list-style: none;
       margin-left: 56px;
       margin-bottom: 32px;
+      color: #02c479;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+      &:hover {
+        transition: all 0.2s ease-in;
+        color: #fff;
+      }
+      .link-to {
+        color: #02c479;
+        text-decoration: none;
+        transition: all 0.3s ease-out;
+        &:hover {
+          transition: all 0.2s ease-in;
+          color: #fff;
+        }
+      }
     }
   }
 }
