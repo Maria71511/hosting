@@ -15,6 +15,14 @@
   }
 }
 
+.slick-slide,
+.slick-current,
+.slick-active {
+  &:focus {
+    outline: none;
+  }
+}
+
 .f-slide {
   display: flex !important;
   background-color: #fff;
@@ -48,6 +56,14 @@
       border-radius: 16px;
       padding: 0.2em 2em;
       color: #f9fbff;
+      border: 1px solid $AccentColor;
+      &:hover {
+        background-color: transparent;
+        color: $AccentColor;
+      }
+      &:focus {
+        outline: none;
+      }
     }
   }
 }

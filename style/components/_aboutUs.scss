@@ -1,0 +1,30 @@
+#aboutUs {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 481.6%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  .aboutUsContainer {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 1030px;
+    background-color: #fff;
+    font-weight: 600;
+    .auCloseMenu {
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      color: #a2b9d4;
+      font-size: 42px;
+      vertical-align: top;
+      margin-left: 4px;
+      white-space: 4px;
+    }
+    .auTextContainer {
+      padding: 0 173px 170px 60px;
+    }
+  }
+}

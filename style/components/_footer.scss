@@ -26,6 +26,16 @@
       .f-tel {
         font-weight: 600;
       }
+      button {
+        margin-top: 21px;
+        margin-left: 21px;
+        border: none;
+        text-align: center;
+        background-color: $button;
+        border-radius: 16px;
+        padding: 0.4em 1.5em;
+        color: #f9fbff;
+      }
     }
   }
   #f-text {
