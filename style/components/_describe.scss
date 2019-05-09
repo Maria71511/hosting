@@ -11,3 +11,17 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  #describe {
+    margin-bottom: 35px;
+    .grid-container {
+      grid-template-columns: repeat(1, 239px);
+      .grid-item {
+        margin: 0;
+        margin-bottom: 50px;
+        width: 100%;
+      }
+    }
+  }
+}

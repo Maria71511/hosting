@@ -92,3 +92,55 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .header {
+    #fixed-number {
+      padding: 0 10px;
+      z-index: 1000;
+      left: 0;
+      justify-content: space-between;
+    }
+    .h-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 71px 0;
+      margin-left: 0;
+      margin-right: 0;
+      #logo {
+        display: none;
+      }
+      .h-title__title {
+        font-weight: bold;
+        font-size: 32px;
+        width: 315px;
+        margin-left: 0;
+        transform: translateY(150%);
+        br {
+          position: absolute;
+        }
+        span {
+          display: inherit;
+          margin: 0;
+          padding-left: 16px;
+        }
+        #modify {
+          background-color: $AccentColor;
+          position: absolute;
+          color: #f9fbff;
+          font-size: 42px;
+          font-weight: bold;
+          transform: translateY(-45%);
+          width: 126.2%;
+        }
+      }
+    }
+  }
+  .h-photo {
+    background-position-x: 50%;
+  }
+  .menu {
+    display: none;
+  }
+}

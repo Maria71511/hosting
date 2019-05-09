@@ -47,3 +47,24 @@
     padding-right: 40px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  #footer {
+    #info-flex-container {
+      text-align: center;
+      width: 275px;
+      flex-direction: column;
+      align-items: center;
+      .info-container {
+        .f-text {
+          img {
+            display: none;
+          }
+        }
+        .f-text--margin {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}

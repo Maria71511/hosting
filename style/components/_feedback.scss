@@ -14,7 +14,7 @@
     height: 690px;
     width: 24%;
     background-color: $PrimaryColor;
-    z-index: -1;
+    z-index: -10;
   }
   margin-bottom: 244px;
 }
@@ -67,5 +67,28 @@
         text-decoration: underline;
       }
     }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #feedback {
+    .c-title {
+      padding-top: 16px;
+      font-weight: normal;
+      width: 340px;
+      margin: 0 auto;
+      margin-bottom: 80px;
+    }
+    .oneRowSliderContainer {
+      width: 90%;
+      margin-left: 38px;
+    }
+    &:before {
+      margin-top: 140px;
+      height: 420px;
+      width: 100%;
+      z-index: -1;
+    }
+    margin-bottom: 128px;
   }
 }

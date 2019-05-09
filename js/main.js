@@ -9,23 +9,14 @@ jQuery(document).ready(function($) {
     slidesToScroll: 1,
     rows: 2,
     autoplay: false,
-    autoplaySpeed: 3000,
     arrows: true,
     responsive: [
       {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          rows: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 400,
+        breakpoint: 1000,
         settings: {
           arrows: false,
           slidesToShow: 1,
-          rows: 2,
+          rows: 1,
           slidesToScroll: 1
         }
       }
@@ -47,14 +38,7 @@ jQuery(document).ready(function($) {
     arrows: true,
     responsive: [
       {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 400,
+        breakpoint: 1000,
         settings: {
           arrows: false,
           slidesToShow: 1,
