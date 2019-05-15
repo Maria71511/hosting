@@ -36,6 +36,14 @@
         padding: 0.4em 1.5em;
         color: #f9fbff;
       }
+      .social {
+        padding: 0;
+        display: flex;
+        list-style: none;
+        .social__item {
+          margin-right: 20px;
+        }
+      }
     }
   }
   #f-text {
@@ -63,6 +71,12 @@
         }
         .f-text--margin {
           margin-left: 0px;
+        }
+        .social {
+          justify-content: space-around;
+          .social__item {
+            margin-right: 0px;
+          }
         }
       }
     }

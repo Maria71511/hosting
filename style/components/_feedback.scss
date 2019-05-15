@@ -92,3 +92,27 @@
     margin-bottom: 128px;
   }
 }
+
+@media screen and (max-width: 340px) {
+  #feedback {
+    .c-title {
+      padding-top: 16px;
+      font-weight: normal;
+      font-size: 27px;
+      width: 300px;
+      margin: 0 auto;
+      margin-bottom: 80px;
+    }
+    .oneRowSliderContainer {
+      width: 87%;
+      margin-left: 38px;
+    }
+    &:before {
+      margin-top: 140px;
+      height: 420px;
+      width: 100%;
+      z-index: -1;
+    }
+    margin-bottom: 128px;
+  }
+}

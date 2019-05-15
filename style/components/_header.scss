@@ -145,6 +145,21 @@
   }
 }
 
+@media screen and (max-width: 411px) {
+  .header {
+    #fixed-number {
+      padding: 0 1px;
+    }
+    .h-title {
+      transform: translateY(-12%);
+      .h-title__title {
+        #modify {
+          width: 125.5%;
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 380px) {
   .header {
     #fixed-number {
@@ -179,10 +194,32 @@
   }
 }
 
+@media screen and (max-width: 340px) {
+  .header {
+    #fixed-number {
+      .h-number {
+        padding: 7px 20px;
+      }
+    }
+    .h-title {
+      transform: translateY(-40%);
+      .h-title__title {
+        #modify {
+          width: 109.4%;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header {
     #fixed-number {
       padding: 0;
+      .h-number {
+        font-size: 14px;
+        padding: 7px 16px;
+      }
     }
     .h-title {
       transform: translateY(-39%);

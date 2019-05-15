@@ -188,6 +188,19 @@
   }
 }
 
+@media screen and (max-width: 411px) {
+  .header #fixed-number {
+    padding: 0 1px;
+  }
+  .header .h-title {
+    -webkit-transform: translateY(-12%);
+            transform: translateY(-12%);
+  }
+  .header .h-title .h-title__title #modify {
+    width: 125.5%;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .header #fixed-number {
     padding: 0 1px;
@@ -214,9 +227,26 @@
   }
 }
 
+@media screen and (max-width: 340px) {
+  .header #fixed-number .h-number {
+    padding: 7px 20px;
+  }
+  .header .h-title {
+    -webkit-transform: translateY(-40%);
+            transform: translateY(-40%);
+  }
+  .header .h-title .h-title__title #modify {
+    width: 109.4%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header #fixed-number {
     padding: 0;
+  }
+  .header #fixed-number .h-number {
+    font-size: 14px;
+    padding: 7px 16px;
   }
   .header .h-title {
     -webkit-transform: translateY(-39%);
@@ -609,6 +639,105 @@
   }
 }
 
+#aboutMob {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  #aboutMob {
+    display: block;
+  }
+  #aboutMob .c-title {
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  #aboutMob .c-title:first-child {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #aboutMob .amContainer {
+    margin-bottom: 30px;
+  }
+  #aboutMob .amContainer .amTitle--color {
+    color: #c7a17a;
+    font-weight: 18px;
+    padding-top: 40px;
+  }
+  #aboutMob .amContainer .amTitle {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  #aboutMob .amContainer .amTextContainer {
+    width: 275px;
+    margin: 0 auto;
+  }
+  #aboutMob .amContainer .amTextContainer .amText {
+    font-size: 14px;
+    margin-bottom: 31px;
+  }
+  #aboutMob .amContainer .amTextContainer button {
+    background-color: #f9bf5d;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 19px;
+    border: none;
+    padding: 0.4em 1.4em;
+  }
+  #aboutMob .amContainer .pfContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 29px 0;
+    margin-left: 23px;
+  }
+  #aboutMob .amContainer .pfContainer .pfContainer--container {
+    margin-left: 16px;
+  }
+  #aboutMob .amContainer .pfContainer .pfContainer--container .pfContainer__name {
+    margin: 10px 0;
+  }
+  #aboutMob .amContainer .c-title--padding-top {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  #aboutMob .amContainer .amText--gold {
+    color: #c7a17a;
+  }
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+
+.slick-dots li {
+  margin: 0 0.8rem;
+}
+
+.slick-dots button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #000;
+  text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #c7a17a;
+}
+
 #feedback {
   margin-bottom: 244px;
 }
@@ -706,6 +835,30 @@
   }
   #feedback .oneRowSliderContainer {
     width: 90%;
+    margin-left: 38px;
+  }
+  #feedback:before {
+    margin-top: 140px;
+    height: 420px;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #feedback {
+    margin-bottom: 128px;
+  }
+  #feedback .c-title {
+    padding-top: 16px;
+    font-weight: normal;
+    font-size: 27px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  #feedback .oneRowSliderContainer {
+    width: 87%;
     margin-left: 38px;
   }
   #feedback:before {
@@ -1029,6 +1182,18 @@
   color: #f9fbff;
 }
 
+#footer #info-flex-container .info-container .social {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#footer #info-flex-container .info-container .social .social__item {
+  margin-right: 20px;
+}
+
 #footer #f-text {
   background-color: #232323;
   color: #eaeaea;
@@ -1055,6 +1220,13 @@
   }
   #footer #info-flex-container .info-container .f-text--margin {
     margin-left: 0px;
+  }
+  #footer #info-flex-container .info-container .social {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #footer #info-flex-container .info-container .social .social__item {
+    margin-right: 0px;
   }
 }
 

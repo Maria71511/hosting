@@ -49,6 +49,21 @@ jQuery(document).ready(function($) {
   });
 });
 
+// mob slider
+
+jQuery(document).ready(function($) {
+  $("#sliderContainer").slick({
+    dots: true,
+    infinite: true,
+    speed: 600,
+    variableWidth: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    arrows: false
+  });
+});
+
 // tabs
 
 var tabButtons = document.querySelectorAll(

@@ -1,0 +1,100 @@
+#aboutMob {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  #aboutMob {
+    display: block;
+    .c-title {
+      font-weight: normal;
+      margin-bottom: 20px;
+      &:first-child {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    }
+    .amContainer {
+      margin-bottom: 30px;
+      .amTitle--color {
+        color: #c7a17a;
+        font-weight: 18px;
+        padding-top: 40px;
+      }
+      .amTitle {
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: normal;
+      }
+      // Перший блок
+      .amTextContainer {
+        width: 275px;
+        margin: 0 auto;
+        .amText {
+          font-size: 14px;
+          margin-bottom: 31px;
+        }
+        button {
+          background-color: #f9bf5d;
+          font-size: 16px;
+          font-weight: bold;
+          color: #fff;
+          border-radius: 19px;
+          border: none;
+          padding: 0.4em 1.4em;
+        }
+      }
+      // Другий блок та третій блок
+      .pfContainer {
+        display: flex;
+        margin: 29px 0;
+        margin-left: 23px;
+        .pfContainer--container {
+          margin-left: 16px;
+          .pfContainer__name {
+            margin: 10px 0;
+          }
+        }
+      }
+      // четвертий блок
+      .c-title--padding-top {
+        font-size: 20px;
+        padding-top: 30px;
+      }
+      .amText--gold {
+        color: #c7a17a;
+      }
+    }
+  }
+}
+
+// slick dots
+.slick-dots {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 1rem 0;
+
+  list-style-type: none;
+
+  li {
+    margin: 0 0.8rem;
+  }
+
+  button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+
+    border: none;
+    border-radius: 100%;
+    background-color: #000;
+
+    text-indent: -9999px;
+  }
+
+  li.slick-active button {
+    background-color: #c7a17a;
+  }
+}
