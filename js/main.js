@@ -134,3 +134,12 @@ window.onclick = function(event) {
     pModal.style.display = "none";
   }
 };
+
+//
+
+$(document).ready(function() {
+  $(".menu-icon").click(function() {
+    $(".menu-icon").toggleClass("active");
+    $(".mob-menu").toggleClass("active");
+  });
+});
