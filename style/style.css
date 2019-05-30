@@ -357,7 +357,7 @@
 #firstSlider .slick-slider {
   width: 90% !important;
   margin-left: 100px !important;
-  margin-bottom: 128px;
+  margin-bottom: 160px;
 }
 
 #firstSlider:before {
@@ -368,6 +368,12 @@
   width: 27%;
   background-color: #32435a;
   z-index: -1;
+}
+
+.slick-slide,
+.slick-current,
+.slick-active {
+  height: unset;
 }
 
 .slick-slide:focus,
@@ -825,6 +831,7 @@
 .sc-item {
   background: #fff;
   width: 558px;
+  height: 241px;
   padding-top: 30px;
   padding-bottom: 39px;
   margin-left: 44px;
