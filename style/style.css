@@ -51,18 +51,12 @@
   margin-right: 33px;
 }
 
-.header .h-title #logo {
-  width: 228x;
-  height: 48px;
-}
-
 .header .h-title .h-title__title {
   position: absolute;
   font-size: 48px;
   width: 800px;
   margin-left: 15px;
-  -webkit-transform: translateY(300%);
-          transform: translateY(300%);
+  top: 70%;
 }
 
 .header .h-title .h-title__title span {

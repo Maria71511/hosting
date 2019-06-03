@@ -29,16 +29,12 @@
     margin: 71px 0;
     margin-left: 120px;
     margin-right: 33px;
-    #logo {
-      width: 228x;
-      height: 48px;
-    }
     .h-title__title {
       position: absolute;
       font-size: 48px;
       width: 800px;
       margin-left: 15px;
-      transform: translateY(300%);
+      top: 70%;
       span {
         position: relative;
         margin-bottom: 120px;
