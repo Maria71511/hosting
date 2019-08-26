@@ -24,6 +24,7 @@
   margin-bottom: 84px;
   .h-title {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     margin: 71px 0;
@@ -93,7 +94,7 @@
 .mob-menu {
   display: none;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .header {
     #fixed-number {
       padding: 0 10px;
@@ -112,7 +113,7 @@
         font-size: 32px;
         width: 315px;
         margin-left: 0;
-        transform: translateY(150%);
+        transform: translateY(10%);
         br {
           position: absolute;
         }
